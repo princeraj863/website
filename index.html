@@ -2,15 +2,20 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>WWE</title>
+  <title>WWE NEWS</title>
+
+  <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
   <img src="images/wwelogo.png" alt ="wwe1"  width=5%>
-  <div>
-   <a href="#">About   </a>     
-   <a href="#">Services  </a>     
-   <a href="#">Contact Us </a>      
-  </div>
+  <nav style="background: lightyellow; border: 1px solid whitesmoke; padding:2px;">
+   <a href="#about">Log in </a> 
+   &nbsp &nbsp   
+   <a href="#summerslam">Summerslam result </a> 
+   &nbsp &nbsp
+   <a href="#Contact">Contact Us </a>   
+
+  </nav>
   <h3>ABOUT WWE</h3>
   <p>World Wrestling Entertainment, Inc., d/b/a WWE, is an American integrated media and entertainment company that is primarily known for professional wrestling. WWE has also branched out into other fields, including movies, football, and various other business ventures.</p>
 
@@ -21,16 +26,96 @@
   <img src="images/wwe2.jpg" alt ="wwe1"  width=80% >
   <img src="images/wwe3.jpg"  alt ="wwe1"  width=80%>
 
-  <h4>About Yourself</h4>
-<form>
+ <div id="about">
+<form >
+  <h4>Log In</h4>
 <label for="fname "> first name :  </label> <br>
 <input type="text"  id="fname" name="fname">  <br>
 <label for="lname "> last name :  </label> <br>
 <input type="text"  id="lname" name="lname"><br>
+<label for="emailid "> email :  </label> <br>
+<input type="email"  id="emailid" name="emailid"><br>
+<label for="pass "> password :  </label> <br>
+<input type="password"  id="pass" name="pass"><br>
+<label for="pass ">Confirm  password :  </label> <br>
+<input type="password"  id="pass" name="pass"><br>
 
 <input type="submit" value="submit">
 
 </form>
+</div> 
 
+<table id="summerslam">
+  <h2>WWE SUMMERSLAM 2021 RESULTS </h2>
+  <tr>
+  <th> Matches </th>
+  <th> Stipulations   </th>
+  <th>   Results</th>
+  </tr>
+
+  <tr>
+    <td>AJ Styles and Omos (c) vs. RK-Bro (Randy Orton and Riddle)</td>
+    <td>WWE Raw Tag Team Championship Match</td>
+    <td>RK-Bro def. AJ Styles & Omos to become the new RAW Tag Team Champions</td>
+
+  </tr>
+  <tr>
+    <td>Eva Marie vs. Alexa Bliss</td>
+    <td>Singles Match</td>
+    <td>Alexa Bliss def. Eva Marie</td>
+  </tr>
+  <tr>
+    <td>Sheamus (c) vs. Damian Priest</td>
+    <td>WWE United States Championship Match</td>
+    <td>Damian Priest def. Sheamus to become the new United States Champion</td>
+  </tr>
+  <tr>
+    <td>The Usos (Jey Uso and Jimmy Uso) (c) vs. The Mysterios (Rey Mysterio and Dominik Mysterio)</td>
+    <td>WWE SmackDown Tag Team Championship Match</td>
+    <td>The Usos def. Rey & Dominik Mysterio to retain the SmackDown Tag Team Titles</td>
+  </tr>
+  <tr>
+    <td>Bianca Belair (c) vs. Becky Lynch</td>
+    <td>SmackDown Women's Title Match</td>
+    <td>Becky Lynch def. Bianca Belair to become the new SmackDown Women's Champion</td>
+  </tr>
+  <tr>
+    <td>Drew McIntyre vs. Jinder Mahal</td>
+    <td>Singles Match</td>
+    <td>Drew McIntyre def. Jinder Mahal</td>
+  </tr>
+  <tr>
+    <td>Nikki A.S.H. (c) vs. Rhea Ripley vs. Charlotte Flair</td>
+    <td>Triple Threat match for the WWE Raw Women's Championship</td>
+    <td>Charlotte def. Nikki A.S.H & Rhea Ripley to become the new RAW Women's Champion</td>
+  </tr>
+  <tr>
+    <td>Edge vs. Seth Rollins</td>
+    <td>Singles Match</td>
+    <td>Edge def. Seth Rollins</td>
+  </tr>
+  <tr>
+    <td>Bobby Lashley (c) vs. Goldberg</td>
+    <td>WWE Championship Match</td>
+    <td>Bobby Lashley wins due to referee's stoppage</td>
+  </tr>
+  <tr>
+    <td>Roman Reigns (c) vs. John Cena</td>
+    <td>WWE Universal Championship Match</td>
+    <td>Roman Reigns def. John Cena to retain the WWE Universal Championship</td>
+  </tr>
+
+</table>
+<br>
+<div id="Contact" style="border: 1px solid black;background:whitesmoke ; ">
+  <h3>Contact Us</h3>
+   <a href="#">About   </a>
+   <br>     
+   <a href="#">Services  </a> 
+   <br>
+
+   <a href="#">Contact Us </a>   
+        
+  </div>
 </body>
 </html>

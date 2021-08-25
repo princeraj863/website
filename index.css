@@ -1,0 +1,18 @@
+table ,tr,td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+table{
+	width: 70%;
+}
+a{
+	border: 1px solid whitesmoke;
+}
+#about{
+	border: 1px solid black;
+	width: 50%;
+	align-content: center;
+}
+table,form,img{
+	margin: 20px;
+}
