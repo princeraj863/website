@@ -1,18 +1,83 @@
 table ,tr,td {
-	border: 1px solid black;
+	border: 2px solid black;
 	border-collapse: collapse;
+}
+*{
+box-sizing: border-box;
 }
 table{
 	width: 70%;
 }
-a{
-	border: 1px solid whitesmoke;
+
+span{
+display: flex;
 }
 #about{
 	border: 1px solid black;
 	width: 50%;
 	align-content: center;
 }
-table,form,img{
-	margin: 20px;
+img{
+margin: 10px;
+}
+.navbar {
+    width: 100%;
+    height: 60px;
+    background: grey;
+    color: brown;
+    font-size: 1em;
+    display: flex;
+    
+    position: sticky;
+    top: 0;
+}
+
+.navbarlogin{
+	width: 70%;
+    text-align: end;
+	display: flex;
+    padding: 1em;
+    font-weight: bold;
+    flex-direction: row-reverse;
+
+
+}
+.navbarlogo{
+	width: 30%;
+
+}
+.hrefnav 
+{
+	padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.wweresult{
+    margin-top: 1em;
+width: 100%;
+    height: 60px;
+    background: grey;
+    color: brown;
+    font-size: 1.5em;
+    display: flex;
+}
+#summerslam{
+    background-color: black;
+
+}
+
+td,th{
+    padding: 0.5em;
+    color: whitesmoke;
+    border: 2px solid black;
+}
+.footer
+{
+    padding-right: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.2em;
+    
 }

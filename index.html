@@ -7,43 +7,47 @@
   <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-  <img src="images/wwelogo.png" alt ="wwe1"  width=5%>
-  <nav style="background: lightyellow; border: 1px solid whitesmoke; padding:2px;">
-   <a href="#about">Log in </a> 
-   &nbsp &nbsp   
-   <a href="#summerslam">Summerslam result </a> 
-   &nbsp &nbsp
-   <a href="#Contact">Contact Us </a>   
+  
+    <span class="navbar">
 
-  </nav>
+    <span class="navbarlogo">
+      <a style="margin-right: 5px;" href="index.html"><img src="images/wwelogo.png" alt ="wwe1"  width="70px"></a>
+    
+   <p style="font-weight: bold; color: black;">WWE NEWS</p> 
+    </span>
+
+    <span class="navbarlogin">
+           <a class="hrefnav" href="signup.html" target="_blank">Sign up</a> 
+          <a  class="hrefnav" href="login.html" target="_blank">Log In</a>
+          <a  class="hrefnav" href="#Contact">Contact Us </a>   
+  </span>
+  
+  </span>
+  <div class="wweresult">
+   
+     
+   <a class="hrefnav" href="#summerslam">Summerslam result </a> 
+   <a class="hrefnav" href="#">Raw result </a> 
+   <a class="hrefnav" href="#">Smackdown result </a> 
+   
+   
+
+  </div>
+  <div >
   <h3>ABOUT WWE</h3>
   <p>World Wrestling Entertainment, Inc., d/b/a WWE, is an American integrated media and entertainment company that is primarily known for professional wrestling. WWE has also branched out into other fields, including movies, football, and various other business ventures.</p>
 
-
+  <p>
+    The WWE name also refers to the professional wrestling promotion itself, which was founded in 1953 as the Capitol Wrestling Corporation. It is the largest wrestling promotion in the world, holding over 450 live events a year, with the roster primarily divided up into three globally traveling brands, and is available to 900 million homes worldwide in 28 languages.
+  </p>
+  </div>
   <h2>Some Photos</h2>
 
   <img src="images/wwe1.jpg" alt ="wwe1"  width=80%>
   <img src="images/wwe2.jpg" alt ="wwe1"  width=80% >
   <img src="images/wwe3.jpg"  alt ="wwe1"  width=80%>
 
- <div id="about">
-<form >
-  <h4>Log In</h4>
-<label for="fname "> first name :  </label> <br>
-<input type="text"  id="fname" name="fname">  <br>
-<label for="lname "> last name :  </label> <br>
-<input type="text"  id="lname" name="lname"><br>
-<label for="emailid "> email :  </label> <br>
-<input type="email"  id="emailid" name="emailid"><br>
-<label for="pass "> password :  </label> <br>
-<input type="password"  id="pass" name="pass"><br>
-<label for="pass ">Confirm  password :  </label> <br>
-<input type="password"  id="pass" name="pass"><br>
-
-<input type="submit" value="submit">
-
-</form>
-</div> 
+ 
 
 <table id="summerslam">
   <h2>WWE SUMMERSLAM 2021 RESULTS </h2>
@@ -107,14 +111,14 @@
 
 </table>
 <br>
-<div id="Contact" style="border: 1px solid black;background:whitesmoke ; ">
-  <h3>Contact Us</h3>
-   <a href="#">About   </a>
+<div id="Contact" style="border: 1px solid black;background:grey ; ">
+  <h3 style="color: white;">Contact Us</h3>
+   <a class="footer" href="#">About   </a>
    <br>     
-   <a href="#">Services  </a> 
+   <a class="footer" href="#">Services  </a> 
    <br>
 
-   <a href="#">Contact Us </a>   
+   <a class="footer" href="#">Contact Us </a>   
         
   </div>
 </body>
