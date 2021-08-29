@@ -81,8 +81,10 @@ margin: 10px;
 div{
 	align-items: center;
 }
-form{
-
+@media screen and (max-width: 768px){
+  .about{
+  width: 80%;
+  }
 }
 /*body {
   background-image: url("images/bk.png");
