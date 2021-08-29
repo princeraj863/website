@@ -88,3 +88,12 @@
   .box1,.box2,.box3{
  width: 100%;
 }
+ .box2f1,.box2f2{
+  border: 1px solid black;
+  width: 90%;
+  height: 35%;
+  margin: 0.8em;
+  background-color: green;
+
+}
+}
