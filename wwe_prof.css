@@ -1,0 +1,85 @@
+span{
+display: flex;
+}
+.navbar {
+    width: 100%;
+    height: 60px;
+    background: grey;
+    color: brown;
+    font-size: 1em;
+    display: flex;
+    
+    position: sticky;
+    top: 0;
+}
+
+.navbarlogin{
+	width: 70%;
+    text-align: end;
+	display: flex;
+    padding: 1em;
+    font-weight: bold;
+    flex-direction: row-reverse;
+
+
+}
+.navbarlogo{
+	width: 30%;
+
+}
+.hrefnav 
+{
+	padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+.outer{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+.gallery{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 300px;
+	width: 300px;
+	border: 1px solid black;
+	margin: 1em;
+}
+.img1{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 70%;
+
+}
+.desc{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 25%;
+	
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: burlywood;
+
+}
+.footer
+{
+    padding-right: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+}
