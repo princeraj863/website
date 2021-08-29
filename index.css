@@ -86,9 +86,9 @@ body {
   background-color: black;
 }
  
-@media screen and (max-width: 700px){
+@media screen and (max-width: 768px){
  body{
-    background-color: lightblue;
+    background-color: white;
  }
  #summerslam{
     width: 100%;
