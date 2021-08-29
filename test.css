@@ -23,7 +23,7 @@
   justify-content: space-between;
   background-color: orange;
 }
-.box2,.box3{
+.box3{
    width: 30%;
   height:90%;
   border: 1px solid red;
@@ -31,6 +31,18 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
+  background-color: orange;
+}
+.box2{
+   width: 30%;
+  height:90%;
+  border: 1px solid red;
+  margin: 0.5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 
   background-color: orange;
 }
@@ -50,24 +62,24 @@
 }
 .box2f1,.box2f2{
   border: 1px solid black;
-  width: 40%;
+  width: 35%;
   height: 90%;
-  margin: 1em;
+  margin: 0.8em;
   background-color: green;
 
 }
 .box3f1,.box3f2,.box3f3,.box3f4{
   border: 1px solid black;
-  width: 44%;
-  height: 44%;
-  margin: 0.3em;
+  width: 40%;
+  height: 40%;
+  margin: 0.4em;
   background-color: green;
 }
 .img1{
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:space-between;
   width: 98%;
   height: 98%;
 
